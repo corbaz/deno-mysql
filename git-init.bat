@@ -1,3 +1,6 @@
+REM  "description": "API realizada en Deno-Servidor: OAK-Base de Datos: Mysql",
+REM  "homepage": "http://corbaz.github.io/deno-mysql",
+ 
 echo "Deno OAK y Mysql" >> README.md
 git init
 git add .
