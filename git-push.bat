@@ -1,5 +1,3 @@
-echo "Deno OAK y Mysql" >> README.md
-git init
 git add .
 git commit -m "version-02"
 git branch -M main
