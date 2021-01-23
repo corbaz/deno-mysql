@@ -1,0 +1,41 @@
+###  CONSULTA All User
+GET  http://localhost:8000/users
+
+### Get user by id1
+GET http://localhost:8000/user/1
+
+### Get user by id2
+GET http://localhost:8000/user/2
+
+### Find a non existing user
+GET http://localhost:8000/user/18
+
+### ALTA User
+POST http://localhost:8000/user
+Content-Type:  application/json
+
+{
+    "name": "Charo Corbaz",
+    "country": "Argentina"
+}
+
+### BORRAR User
+DELETE http://localhost:8000/user/18
+
+### UPDATE User
+PUT http://localhost:8000/user/1
+Content-Type:  application/json
+
+{
+    "name": "Julio Corbaz",
+    "country": "Argentina"
+}
+
+### UPDATE User
+PUT http://localhost:8000/user/1
+Content-Type:  application/json
+
+{
+    "name": "julio.corbaz@gmail.com",
+    "country": "Argentina"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "0-denoapimysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "run": "deno run --allow-net src/index.ts"
+  },
+  "author": "JCC",
+  "license": "ISC"
+}
