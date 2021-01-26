@@ -9,7 +9,9 @@ set HORA=%HORA_COMPLETA:~0,2%
 set MINUTOS=%HORA_COMPLETA:~3,2%
 set SEGUNDOS=%HORA_COMPLETA:~6,2%
 
-if %HORA% LSS 10 set HORA=0%HORA%
+if %HORA% LSS 10 (
+    set HORA=0%HORA_COMPLETA:~1,1%
+)    
 @echo HORA
 @echo %HORA%
 
